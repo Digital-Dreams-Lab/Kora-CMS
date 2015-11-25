@@ -1,0 +1,16 @@
+
+
+<!--
+php //
+array(
+	'panel_id' 			=> {panel_id},
+	'panel_parent_id' 	=> {panel_parent_id},
+	'panel_heading_id' 	=> {panel_heading_id},
+	'panel_title' 		=> {panel_title},
+	'panel_title_id' 		=> {panel_title_id},
+	'panel_body' 		=> {panel_body},
+	
+	'panel_edit_url' 	=> {panel_edit_url},
+	'panel_settings_url'=> {panel_settings_url},
+);
+-->

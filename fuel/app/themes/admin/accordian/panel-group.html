@@ -1,0 +1,17 @@
+<div class="panel-group" id="{panel_parent_id}" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default {panel_class}">
+    <div class="panel-heading" role="tab" id="{panel_heading_id}">
+      <h4 class="panel-title">
+      	<a href="{panel_edit_url}" data-toggle="tooltip" data-placement="top" title="Click here to edit this section only."><i class="fa fa-edit"></i></a>
+        <a role="button" data-toggle="collapse" data-parent="#{panel_parent_id}" href="#{panel_id}" aria-expanded="true" aria-controls="{panel_id}">{panel_title}</a>
+        <small>Section ID #{panel_title_id}</small>
+		<a class="pull-right" href="{panel_settings_url}" data-toggle="tooltip" data-placement="top" title="Click here to edit section layout.">{panel_settings_icon}</a>
+      </h4>
+    </div>
+    <div id="{panel_id}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="{panel_heading_id}">
+      <div class="panel-body">
+        {panel_body}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+	<block 
+		data-type="nav"
+		data-row-start="yes"
+		data-row-end="yes"
+		data-id="nav"
+		data-title="Top navagation bar"
+		data-class="navbar navbar-custom navbar-fixed-top" 
+		data-position="top" 
+		data-col="12" 
+		data-order="0" 
+		data-limit="1" 
+		data-active="disable"
+		data-html="_nav">nav</block>
+
+	<block 
+		data-type="header"
+		data-row-start="yes"
+		data-row-end="yes"
+		data-id="header"
+		data-title="Page header"
+		data-class="intro paraxify" 
+		data-position="top" 
+		data-col="12" 
+		data-order="1" 
+		data-limit="1"
+		data-active="active"
+		data-html="_header">header</block>
+	
+	<block 
+		data-type="default"
+		data-row-start="yes"
+		data-row-end="yes"
+		data-id="section"
+		data-title="Page sections"
+		data-class="section" 
+		data-position="middle"
+		data-col="12" 
+		data-order="2"
+		data-limit="0"
+		data-active="active"
+		data-html="_section">sections</block>
+		
+	<block 
+		data-type="footer"
+		data-row-start="yes"
+		data-row-end="yes"
+		data-id="footer"
+		data-title="Page footer"
+		data-class="footer" 
+		data-position="bottom"
+		data-col="12" 
+		data-order="3"
+		data-limit="1"
+		data-active="active"
+		data-html="_footer">footer</block>
+
+</layout>

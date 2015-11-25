@@ -1,0 +1,8 @@
+
+
+<!--
+php //
+array(
+	'panel_id' 			=> {panel_id},
+);
+-->

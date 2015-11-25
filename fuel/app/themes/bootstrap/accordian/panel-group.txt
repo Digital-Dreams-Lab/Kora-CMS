@@ -1,0 +1,12 @@
+
+
+<!--
+php //
+array(
+	'panel_id' 			=> {panel_id},
+	'panel_parent_id' 	=> {panel_parent_id},
+	'panel_heading_id' 	=> {panel_heading_id},
+	'panel_title' 		=> {panel_title},
+	'panel_body' 		=> {panel_body},
+);
+-->
